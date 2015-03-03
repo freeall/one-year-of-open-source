@@ -168,4 +168,4 @@ var draw = function() {
 	});
 };
 
-setTimeout(draw, 2000);
+setTimeout(draw, 5000);
