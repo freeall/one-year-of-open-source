@@ -1,7 +1,7 @@
 {
   "name": "one-year-of-open-source",
   "version": "1.0.0",
-  "description": "Celebrate that @mafintosh have a one year streak on Github",
+  "description": "Celebrate that @mafintosh has a one year streak on Github",
   "dependencies": {
     "root": "^3.0.0",
     "send": "^0.12.1"
