@@ -1,0 +1,19 @@
+{
+  "name": "one-year-of-open-source",
+  "version": "1.0.0",
+  "description": "Celebrate that @mafintosh have a one year streak on Github",
+  "dependencies": {
+    "root": "^3.0.0",
+    "send": "^0.12.1"
+  },
+  "devDependencies": {},
+  "author": "Tobias Baunbæk <freeall@gmail.com>",
+  "license": "MIT",
+  "service": {
+    "registry": "public/one-year-of-open-source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeall/one-year-of-open-source.git"
+  }
+}

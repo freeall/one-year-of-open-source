@@ -1,0 +1,105 @@
+.mafintosh-graph {
+  width: 721px;
+  height: 126px;
+  padding-top: 10px;
+  padding-left: 24px;
+}
+.clear {
+  clear: both;
+  height: 3px;
+}
+.month-header:first-child {
+  margin-left: 0;
+}
+.month-header {
+  color: rgb(170, 170, 170);
+  font-family: Helvetica, arial, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 10px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 10px;
+  line-height: 14px;
+  margin-left: 40px;
+  float: left;
+}
+#boxes {
+  position: relative;
+}
+#boxes .box {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  -webkit-transition: top 2s ease, left 2s ease;
+  -moz-transition: top 2s ease, left 2s ease;
+  -o-transition: top 2s ease, left 2s ease;
+  -ms-transition: top 2s ease, left 2s ease;
+  transition: top 2s ease, left 2s ease;
+}
+#boxes .box[level="0"] { background-color: #eee; }
+#boxes .box[level="1"] { background-color: #d6e685; }
+#boxes .box[level="2"] { background-color: #8cc665; }
+#boxes .box[level="3"] { background-color: #44a340; }
+#boxes .box[level="4"] { background-color: #1e6823; }
+
+#boxes .box[x="0"] { left:0px; }
+#boxes .box[x="1"] { left:13px; }
+#boxes .box[x="2"] { left:26px; }
+#boxes .box[x="3"] { left:39px; }
+#boxes .box[x="4"] { left:52px; }
+#boxes .box[x="5"] { left:65px; }
+#boxes .box[x="6"] { left:78px; }
+#boxes .box[x="7"] { left:91px; }
+#boxes .box[x="8"] { left:104px; }
+#boxes .box[x="9"] { left:117px; }
+#boxes .box[x="10"] { left:130px; }
+#boxes .box[x="11"] { left:143px; }
+#boxes .box[x="12"] { left:156px; }
+#boxes .box[x="13"] { left:169px; }
+#boxes .box[x="14"] { left:182px; }
+#boxes .box[x="15"] { left:195px; }
+#boxes .box[x="16"] { left:208px; }
+#boxes .box[x="17"] { left:221px; }
+#boxes .box[x="18"] { left:234px; }
+#boxes .box[x="19"] { left:247px; }
+#boxes .box[x="20"] { left:260px; }
+#boxes .box[x="21"] { left:273px; }
+#boxes .box[x="22"] { left:286px; }
+#boxes .box[x="23"] { left:299px; }
+#boxes .box[x="24"] { left:312px; }
+#boxes .box[x="25"] { left:325px; }
+#boxes .box[x="26"] { left:338px; }
+#boxes .box[x="27"] { left:351px; }
+#boxes .box[x="28"] { left:364px; }
+#boxes .box[x="29"] { left:377px; }
+#boxes .box[x="30"] { left:390px; }
+#boxes .box[x="31"] { left:403px; }
+#boxes .box[x="32"] { left:416px; }
+#boxes .box[x="33"] { left:429px; }
+#boxes .box[x="34"] { left:442px; }
+#boxes .box[x="35"] { left:455px; }
+#boxes .box[x="36"] { left:468px; }
+#boxes .box[x="37"] { left:481px; }
+#boxes .box[x="38"] { left:494px; }
+#boxes .box[x="39"] { left:507px; }
+#boxes .box[x="40"] { left:520px; }
+#boxes .box[x="41"] { left:533px; }
+#boxes .box[x="42"] { left:546px; }
+#boxes .box[x="43"] { left:559px; }
+#boxes .box[x="44"] { left:572px; }
+#boxes .box[x="45"] { left:585px; }
+#boxes .box[x="46"] { left:598px; }
+#boxes .box[x="47"] { left:611px; }
+#boxes .box[x="48"] { left:624px; }
+#boxes .box[x="49"] { left:637px; }
+#boxes .box[x="50"] { left:650px; }
+#boxes .box[x="51"] { left:663px; }
+#boxes .box[x="52"] { left:676px; }
+
+#boxes .box[y="0"] { top:0px; }
+#boxes .box[y="1"] { top:13px; }
+#boxes .box[y="2"] { top:26px; }
+#boxes .box[y="3"] { top:39px; }
+#boxes .box[y="4"] { top:52px; }
+#boxes .box[y="5"] { top:65px; }
+#boxes .box[y="6"] { top:78px; }
